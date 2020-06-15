@@ -12,7 +12,7 @@ export class ShoppingItemComponent implements OnInit {
   shoppingItemList: Item[] = [];
   selectedItem: Item;
   toggleForm = false;
-  
+
   constructor(private dataService: DataService) { }
 
   getItems(){
